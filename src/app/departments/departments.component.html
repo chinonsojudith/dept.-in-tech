@@ -1,0 +1,33 @@
+<div class="main">
+    <h1>Departments in Technology</h1>
+
+    <div *ngFor="let judith of deptArray" class="dropdown style">
+        <button class="dropbtn bg-white opt">{{ judith.name }}</button>
+        <div class="dropdown-content bg-white">
+            <a routerLink="#" *ngFor="let details of judith.departments"> <span>ID:{{details.id}}</span> {{details.course }}
+            </a>
+
+        </div>
+    </div>
+
+
+</div>
+
+<!-- <div class="main">
+    <h1>Departments in Technology</h1>
+    <div class="container">
+        <select name ="" id="" *ngFor="let judith of deptArray" class="style bg-white">
+            <option class="opt bg-white" value="" > {{ judith.name }}</option>
+            <option class="opt" value="" *ngFor="let details of judith.departments"> {{details.course }}</option>
+        </select>
+    </div>
+</div> -->
+
+
+
+<!-- <div *ngIf="isDisplay">
+    <h2> Department Details </h2>
+    <ul>
+        <li *ngFor="let details of myData"> {{details.course}}</li>
+    </ul>
+</div> -->
