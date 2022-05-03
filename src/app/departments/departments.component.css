@@ -1,6 +1,7 @@
 h1 {
   text-align: center;
   padding: 2%;
+  margin-bottom: 10%;
   color: rgb(245, 173, 143);
 }
 
@@ -31,6 +32,7 @@ h1 {
 .dropdown {
   position: relative;
   display: inline-block;
+  
 
 }
 
@@ -70,13 +72,14 @@ h1 {
 
 
 .style {
-  margin: 11% 4%;
+  margin: 2% 4%;
   padding: 2%;
   color: #000;
   border: none;
   border-radius: 10px;
   font-size: 1.0rem;
   box-shadow: 0px 0px 10px;
+  /* justify-content: center; */
 }
 
 .style:hover {
@@ -89,4 +92,10 @@ h1 {
 color: black;
 
 }
+
+/* @media(max-width:420px){
+.main{
+  height:100v;
+}
+} */
 

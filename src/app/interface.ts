@@ -1,3 +1,5 @@
+// defining the data type
+
 export interface  dept {
     id: number,
     course: string
